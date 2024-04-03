@@ -31,4 +31,4 @@ jobs:
 
       - name: Push image
         run: |
-          docker push ivandersr/devops.sample.service.passin:${{ steps.generate_sha.outputs.sha }} .
+          docker push ivandersr/devops.sample.service.passin:${{ steps.generate_sha.outputs.sha }}
